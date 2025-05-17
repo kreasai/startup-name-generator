@@ -2,7 +2,7 @@
 
 **Startup Name Generator** adalah aplikasi web sederhana yang membantu kamu menemukan nama startup yang unik dan relevan, hanya dengan deskripsi ide atau berdasarkan kategori industri dan kata kunci.
 
-![Preview](preview.png) <!-- opsional: bisa dihapus jika tidak ada gambar -->
+![Preview](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI49a-kd752ijn6SN_RKyHP6DGkILT6mk6itMcNEx8iIW36ICRcBbWOpm4vM8p66FvrYGlso66AibpTHTH5oMeFjEAq-K-9bHiQgWpiTvQAyqO4EwUIf2ohbKxEM6TyARQfY5bLWJ_lDTm4pW9Futzgax30YZpQkh2lQI8j2H04Fp0-BdgOJGNYthdOKU/s720-c/Startup%20Name%20Generator.webp) <!-- opsional: bisa dihapus jika tidak ada gambar -->
 
 ---
 
