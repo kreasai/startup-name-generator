@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Startup Name Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">Startup Name Generator</div>
+
+    <div class="konten">
+      <!-- Kolom: Deskripsi -->
+      <div class="box bg-abuabu">
+        <h3 class="kecil">Generate Nama Startup Berdasarkan Deskripsi Ide</h3>
+        <form>
+          <div class="form-group">
+            <textarea id="userInput" class="form-control" rows="5" placeholder="Contoh: Aplikasi bantu UMKM jualan online"></textarea>
+          </div>
+          <button type="button" onclick="generateFromDescription()" class="btn2">Cari Nama</button>
+        </form>
+      </div>
+
+      <!-- Kolom: Kategori -->
+      <div class="box bg-abuabu">
+        <h3 class="kecil">Generate Nama Startup Berdasarkan Kategori</h3>
+        <form>
+          <div class="form-group">
+            <label for="industry" class="x-kecil">Industri</label>
+            <input type="text" class="form-control" id="industry" placeholder="Contoh: Teknologi, Pendidikan">
+          </div>
+          <div class="form-group">
+            <label for="keyword" class="x-kecil">Kata Kunci</label>
+            <input type="text" class="form-control" id="keyword" placeholder="Contoh: pintar, digital, AI">
+          </div>
+          <button type="button" onclick="generateFromCategory()" class="btn2">Cari Nama</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Output -->
+    <div class="output">
+      <div id="output" class="row"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<footer style="text-align: center; margin-top: 3rem; padding: 1rem 0; font-size: 0.9rem; color: #6c757d;">
+  Tools oleh <a href="https://www.kreasai.com" target="_blank" style="color: #000080; font-weight: 600; text-decoration: none;">KREASAI.COM</a>
+</footer>
+</html>

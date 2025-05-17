@@ -1,0 +1,145 @@
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f4f6;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+
+    .konten {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      flex: 1 1 48%;
+      min-width: 300px;
+    }
+
+    h3.kecil {
+      margin-top: 0;
+      font-size: 18px;
+      color: #111;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    .btn2 {
+      background: linear-gradient(90deg, #4f46e5, #3b82f6);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn2:hover {
+      background: linear-gradient(90deg, #4338ca, #2563eb);
+    }
+
+    .bg-abuabu {
+      background-color: #f9fafb;
+    }
+
+    .output {
+      margin-top: 40px;
+    }
+
+    .output .card {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      padding: 15px;
+      border-radius: 6px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .output .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .output .col {
+      flex: 1 1 calc(33.333% - 20px);
+      min-width: 200px;
+    }
+
+    @media (max-width: 1024px) {
+      .konten {
+        flex-direction: column;
+      }
+
+      .box {
+        flex: 1 1 100%;
+      }
+
+      .output .col {
+        flex: 1 1 48%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .output .col {
+        flex: 1 1 100%;
+      }
+    }
+
+    .x-kecil {
+      font-size: 13px;
+      color: #666;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-muted {
+      color: #888;
+    }
+
+    .text-danger {
+      color: red;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
