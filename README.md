@@ -31,6 +31,6 @@ Sebagian skrip dalam proyek ini telah dienkripsi untuk keperluan keamanan,
 Jika membutuhkan versi tanpa enkripsi, kami telah menyediakan akses khusus.
 
 👉 Silakan kunjungi link berikut untuk mendapatkan versi tanpa enkripsi:
-https://lynk.id/kreasai/nl1vyvn6dknd
+http://lynk.id/kreasai/2j5gq2k0d2x2
 
 by KREASAI.COM
